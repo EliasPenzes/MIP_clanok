@@ -13,7 +13,7 @@
 
 \pagestyle{headings}
 
-\title{Time arrival prediction\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2021/22, vedenie: Ing. Bystrík Bindas}}
+\title{Time arrival prediction}
 
 \author{Eliáš Pénzeš\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
@@ -30,15 +30,28 @@
 \begin{abstract}
 Predpoveď času príchodu je významnou súčasťou verejnej dopravy. Existuje viacero spôsobov akými môžeme tento čas predpovedať. Presnosť a spoľahlivosť jednotlivých modelov predpovede je kľúčovou zložkou. V mojej práci by som sa rád zameral na rôzne modely a možnosti predpovede príchodu prostriedkov verejnej dopravy a na to aké modely sú v dnešnej dobe najčastejšie používané. Taktiež by som rád upresnil základy a princípy na akých jednotlivé modely fungujú. Na ich presnosť a možnosť adaptovať sa na rušnosť dopravy v reálnom čase alebo rôzne neočakávané situácie. Tiež by som rád spomenul aj to, ako spoľahlivé predpovede príchodu ovplyvňujú život ľudom ktorý cestujú verejnou dopravou. 
 \end{abstract}
-\section{Úvod}
 
-\section{Model 1} \label{nejaka}
-
-\section{Dôležitá časť} \label{dolezita}
-
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
-
-\section{Záver} \label{zaver}
+\section{Introduction} \label{Introduction}
+The ability to accurately predict bus arrival times in public transportation networks is a significant component for a public transportation system. It can help in improving public transport service quality. An accurate bus arrival time prediction system can also motivate people’s choice of bus ridership, by reducing the passengers’ waiting time. Due to random fluctuations in travel demands, different traffic conditions at different times of the day and different days of the week, disturbance caused by other types of vehicles, intersection delays, incidents, and weather conditions, estimation of bus arrival at stops is a challenging task.  Several excellent models related to estimating bus arrival time at stops have been developed over the years by various authors. They can be classified into:
+\begin{enumerate}
+\item Models based on historical data
+\item Real-time models
+\item Hybrid models
+\end {enumerate}
+\section{Models} \label{Modles}
+\subsection{Models based on histoical data } \label{ina:nejake}
+Historical data based models predict travel time for a
+given time period using the average travel time for the
+same time period obtained from a historical data base.
+These models assume that traffic patterns are cyclical
+and the ratio of the historical travel time on a specific
+link to the current travel time reported in real-time will
+remain constant
+\subsection{Real-time models} \label{ina:nejake}
+Real-time approach predicts the travel time at the next time interval to be the same as that in the present time interval.
+\subsection{Hybrid/mixed models} \label{ina:nejake}
+\section{Which is the right prediction model for bus arrival time?} \label{dolezitejsia}
+\section{Conclusion} \label{zaver}
 \nocite{*}
 \bibliography{literatura}
 \bibliographystyle{plain}
